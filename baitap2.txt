@@ -1,0 +1,42 @@
+// Bài tập 2 – Gán status code cho từng tình huống
+// Với ít nhất 6 endpoint trong bài tập 1, hãy ghi rõ: 
+// - status code thành công - status code khi input sai 
+// - status code khi chưa login 
+// - status code khi không đủ quyền 
+// - status code khi không tìm thấy tài nguyên
+1. get/ orders 
+status code thành công: 200 OK
+status code khi input sai: 400 Bad Request
+status code khi chưa login: 401 Unauthorized
+status code khi không đủ quyền: 403 Forbidden
+status code khi không tìm thấy tài nguyên: 404 Not Found
+2. post/ orders
+status code thành công: 201 Created
+status code khi input sai: 400 Bad Request
+status code khi chưa login: 401 Unauthorized
+status code khi không đủ quyền: 403 Forbidden
+status code khi không tìm thấy tài nguyên: 404 Not Found
+3. get/ products
+status code thành công: 200 OK
+status code khi input sai: 400 Bad Request
+status code khi chưa login: 401 Unauthorized
+status code khi không đủ quyền: 403 Forbidden
+status code khi không tìm thấy tài nguyên: 404 Not Found
+4. post/ products
+status code thành công: 201 Created
+status code khi input sai: 400 Bad Request
+status code khi chưa login: 401 Unauthorized    
+status code khi không đủ quyền: 403 Forbidden
+status code khi không tìm thấy tài nguyên: 404 Not Found
+5. get/ users
+status code thành công: 200 OK
+status code khi input sai: 400 Bad Request
+status code khi chưa login: 401 Unauthorized
+status code khi không đủ quyền: 403 Forbidden
+status code khi không tìm thấy tài nguyên: 404 Not Found
+6. post/ users
+status code thành công: 201 Created
+status code khi input sai: 400 Bad Request
+status code khi chưa login: 401 Unauthorized
+status code khi không đủ quyền: 403 Forbidden
+status code khi không tìm thấy tài nguyên: 404 Not Found

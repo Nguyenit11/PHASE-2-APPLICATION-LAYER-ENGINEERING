@@ -1,0 +1,21 @@
+Bài tập 3 – Vẽ flow request cho create order
+Học viên tự vẽ flow ở mức high-level: 
+- client gửi gì 
+cilent sẽ gửi post/orders và Body (chứa product_id, quantity) và Headers (chứa Authorization
+- backend đọc gì 
+backend sẽ đọc api endpoint đó
+Header: Lấy token để biết user nào đang đặt hàng
+Body: Lấy danh sách món hàng muốn mua
+
+- validate gì 
+Auth
+Data Format: Body gửi lên có đúng là JSON không? Số lượng có phải là số dương không?
+Business Logic (Nghiệp vụ): Sản phẩm này còn hàng trong kho không? Giá tiền có khớp với hệ thống không?
+- xử lý gì
+Xử lý http method đó
+Gọi xuống Database để trừ số lượng tồn kho
+Tạo một dòng mới trong bảng Orders
+- trả gì
+status code và file json và FE thấy file đó dựa framework để tạo ra giao diện
+Chưa cần sâu vào transaction ở Day 1, nhưng phải nhìn được flow end-to-end.
+

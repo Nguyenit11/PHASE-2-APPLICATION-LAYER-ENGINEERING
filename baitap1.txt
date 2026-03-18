@@ -1,0 +1,68 @@
+// Bài tập 1 – Thiết kế endpoint theo REST
+// Thiết kế tối thiểu 12 endpoint cho scenario bán hàng, gồm nhóm: - auth - products - orders - users/roles cơ bản
+// Mỗi endpoint phải ghi rõ: 
+// - method 
+// - path 
+// - mục đích 
+// - có cần auth hay không 
+// - dự kiến role nào được phép gọi
+1. get/ orders 
+method: GET
+path: /orders
+Auth: Yes
+Role: Customer, Admin
+2. post/ orders
+method: POST
+path: /orders
+Auth: Yes
+Role: Customer, Admin
+3. get/ products
+method: GET
+path: /products
+Auth: No
+Role: All
+4. post/ products
+method: POST
+path: /products
+Auth: Yes
+Role: Admin
+5. get/ users
+method: GET
+path: /users
+Auth: Yes
+Role: Admin
+6. post/ users
+method: POST
+path: /users
+Auth: Yes
+Role: Admin
+7. get/ roles
+method: GET 
+path: /roles
+Auth: Yes
+Role: Admin
+8. post/ roles
+method: POST    
+path: /roles
+Auth: Yes
+Role: Admin
+9. post/ auth/login
+method: POST
+path: /auth/login
+Auth: No
+Role: All
+10. post/ auth/logout
+method: POST
+path: /auth/logout
+Auth: Yes
+Role: Customer, Admin
+11. get/ auth/profile
+method: GET
+path: /auth/profile
+Auth: Yes
+Role: Customer, Admin
+12. put/ auth/profile
+method: PUT
+path: /auth/profile
+Auth: Yes
+Role: Customer, Admin
