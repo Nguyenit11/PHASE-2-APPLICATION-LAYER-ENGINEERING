@@ -1,0 +1,23 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "typescript, ts",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec npx tsx src/index.ts",
+    "dev:test": "nodemon --exec npx tsx test.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "capy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
