@@ -1,0 +1,11 @@
+Bài tập 5 – Tự phản biện thiết kế
+Tự trả lời bằng văn bản ngắn: 
+- vì sao không nên dùng POST cho mọi endpoint? 
+Bời vì post chỉ là tạo hoặc thêm cái gì đó mới, nếu post mọi endpoints sever sẽ bị cắt đứt
+- vì sao 401 khác 403? 
+401 Unauthorized Xác thực user
+403 Forbidden: Xác thực Role
+- vì sao resource naming giúp teamwork tốt hơn? 
+Để làm việc với nhau tốt hơn, vì đó là cách đặt têm theo quy ước chung, giống như ta thường gọi là thứ tư chứ không phải là thứ bốn
+- vì sao Git note của Day 1 không nên gộp thành một commit kiểu update?
+Gộp thành 1 commit kiểu update sẽ mất lịch sử chi tiết, khó truy vết ai đã đổi gì, khi nào, và lý do.

@@ -1,0 +1,6 @@
+Bài tập 4 – Git learning trace
+Trong repository Phase 2: 
+- tạo branch Day 1 
+- commit ít nhất 3 commit có ý nghĩa 
+- push repo 
+- tạo file note mô tả các endpoint và status code
