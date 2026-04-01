@@ -8,7 +8,7 @@ Ngày 1/4:
 Ngày 2/4:
 Mục tiêu:
 + Xem lại JSON 
-+ Học và hiểu bất đồng bộ (callback, promise, async/await, try, catchcatch)
++ Học và hiểu bất đồng bộ (callback, promise, async/await, try, catch)
 + Học thêm về MongoDB, Mongoose
 
 
