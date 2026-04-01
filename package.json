@@ -24,7 +24,8 @@
   "homepage": "https://github.com/Nguyenit11/node-express#readme",
   "dependencies": {
     "express": "^5.2.1",
-    "express-handlebars": "^8.0.2"
+    "express-handlebars": "^8.0.2",
+    "mongoose": "^9.3.3"
   },
   "devDependencies": {
     "morgan": "^1.10.1",

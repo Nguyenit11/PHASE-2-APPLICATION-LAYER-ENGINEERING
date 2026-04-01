@@ -6,7 +6,10 @@ const handlebars = require('express-handlebars')
 
 const route = require('./routes/index2'); // import route
 
-app.use(express.urlencoded({extended: true}));
+const db = require('./config/db');
+db.connect(); //connect to database
+
+app.use(express.urlencoded({extended: true})); 
 app.use(express.json());
 
 const port = 3000 //cổng

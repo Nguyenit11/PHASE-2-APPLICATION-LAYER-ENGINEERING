@@ -1,8 +1,16 @@
+const Course = require('../../models/course');
 class SiteController {
     // [GET] /home
-    index(req, res) {
-        res.render('home');
+    async index(req,res){
+        try {
+            const courses = await Course.find({});
+            res.json(courses);
+        } catch (err) {
+            res.status(400).json({ error: 'error!' });
+        }
     }
+    // res.render('home'); không được xóa dòng này
+
     // [GET] /contact
     contact(req, res) {
         res.render('contact');
